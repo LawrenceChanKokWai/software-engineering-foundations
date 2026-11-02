@@ -1,0 +1,29 @@
+
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Java
+target/
+*.class
+
+# C++ / CMake
+build/
+cmake-build-*/
+*.o
+*.out
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
